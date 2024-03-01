@@ -4,10 +4,10 @@ const backgroundColor = Color.fromARGB(255, 32, 32, 32);
 final darkTheme = ThemeData(
   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
   useMaterial3: true,
-  dividerColor: Colors.white24,
   scaffoldBackgroundColor: backgroundColor,
   appBarTheme: const AppBarTheme(
       backgroundColor: backgroundColor,
+      elevation: 0,
       iconTheme: IconThemeData(color: Colors.white),
       titleTextStyle: TextStyle(
           color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700)),

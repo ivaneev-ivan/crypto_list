@@ -1,5 +1,5 @@
-import 'package:crypto_list/features/crypto_list/crypto_list.dart';
 import 'package:crypto_list/features/crypto_coin/crypto_coin.dart';
+import 'package:crypto_list/features/crypto_list/crypto_list.dart';
 
 final routes = {
   '/coins': (context) => const CryptoCoinScreen(),
